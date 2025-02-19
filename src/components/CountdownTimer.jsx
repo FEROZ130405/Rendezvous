@@ -40,21 +40,21 @@ const CountdownTimer = () => {
 const styles = {
   container: {
     textAlign: "center",
-    marginTop: "20px",
+    marginTop: "1.2rem",
     zIndex: "1", //CHANGED
   },
   timer: {
-    fontSize: "36px",
+    fontSize: "2.4rem",
     fontWeight: "bold",
     color: "#fff",
-    letterSpacing: "2px",
-    padding: "10px",
+    letterSpacing: "0.11rem",
+    padding: "2rem",
   },
   labels: {
-    fontSize: "20px",
+    fontSize: "1.3rem",
     fontWeight: "500",
     color: "#ccc",
-    marginTop: "5px",
+    marginTop: "0.35rem",
   }
 };
 

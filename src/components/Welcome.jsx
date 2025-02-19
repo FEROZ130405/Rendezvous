@@ -16,20 +16,19 @@ const styles = {
   container: {
     textAlign: "center",
     color: "white",
-    padding: "40px",
+    padding: "3.2rem",
     zIndex: "1" //CHANGED  
   },
   title: {
-    fontSize: "70px",
+    fontSize: "4rem ",
     fontWeight: "bold",
     textAlign: "center",
     textShadow: "0 0 20px rgb(255, 255, 255)",
-    marginbottom:"20px",
   },
   description: {
-    marginTop:"60px",
-    fontSize: "20px",
-    maxWidth: "800px",
+    marginTop:"2.5rem",
+    fontSize: "1.3rem",
+    maxWidth: "60rem",
     margin: "0 auto"
   },
 };

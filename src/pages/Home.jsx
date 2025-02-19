@@ -12,7 +12,7 @@ const Home = () => {
 
       <div style={styles.imageContainer}>
         <img
-          src="/squid3.png" // Replace with the path to your PNG image
+          src="/squid3.png"
           alt="Background"
           style={styles.image}
         />
@@ -31,16 +31,15 @@ const styles = {
     zIndex: 10,
     width: "100%",
     height: "100%",
-    height: "200vh",
+    height: "45rem",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
   },
   image: {
     width: "100%", // Adjust width
-    maxHeight: "90vh",
+    maxHeight: "43rem",
     objectFit: "cover",
-    borderRadius: "10px", // Optional rounded corners
   },
 };
 

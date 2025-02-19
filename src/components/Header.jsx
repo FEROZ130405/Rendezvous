@@ -58,7 +58,7 @@ const Header = () => {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 15px 30px;
+            padding: 0.5rem 2rem;
             background-color: rgba(90, 88, 88, 0.5);
             position: fixed;
             width: 100%;
@@ -66,7 +66,7 @@ const Header = () => {
             left: 0;
             z-index: 1000;
             box-sizing: border-box;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(0.5rem);
           }
 
           .left-section {
@@ -75,19 +75,19 @@ const Header = () => {
           }
 
           .logo {
-            width: 50px;
+            width: 2.5rem;
             height: auto;
-            margin-right: 15px;
+            margin-right: 0.75rem;
           }
 
           .college-info h1 {
-            font-size: 20px;
+            font-size: 1.2rem;
             margin: 0;
             color: white;
           }
 
           .college-info p {
-            font-size: 14px;
+            font-size: 0.8rem;
             margin: 0;
             color: white;
           }
@@ -100,21 +100,21 @@ const Header = () => {
 
           .nav-links {
             display: flex;
-            gap: 20px;
+            gap: 1rem;
           }
 
           .nav-links span, .mobile-nav span {
             color: white;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 1.2rem;
             font-weight: 500;
             cursor: pointer;
-            padding: 10px;
+            padding: 0.6rem;
           }
 
           .hamburger-menu {
             display: none;
-            font-size: 28px;
+            font-size: 1rem;
             color: white;
             cursor: pointer;
           }
