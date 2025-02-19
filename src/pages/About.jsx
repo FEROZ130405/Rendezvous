@@ -51,15 +51,12 @@ const styles = {
     color: "white",
     textAlign: "center",
     padding: "50px 0",
-  
-     // Adjust spacing if needed
   },
   scheduleContainer: {
     zIndex: 3, // Ensures Schedule stays visible
     position: "relative",
     padding: "20px",
     borderRadius: "10px",
-   
   },
   eventCard: {
     position: "relative",

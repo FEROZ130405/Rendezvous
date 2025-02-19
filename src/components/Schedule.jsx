@@ -102,6 +102,21 @@ const styles = {
     justifyContent: "center", // Centers text horizontally
     textAlign: "center",
     boxShadow: "0 4px 30px rgb(255, 255, 255)", 
+    // Responsive adjustments
+    "@media (max-width: 1200px)": {
+      width: "600px",
+      height: "350px",
+    },
+    "@media (max-width: 768px)": {
+      width: "90%", // Reduce width to 90% of the parent container
+      maxWidth: "600px", // Ensure it doesn't exceed 600px
+      height: "300px",
+    },
+    "@media (max-width: 480px)": {
+      width: "90%", // Reduce width to 90% of the parent container
+      maxWidth: "400px", // Ensure it doesn't exceed 400px
+      height: "250px",
+    },
   },
   infoTitle: {
     fontSize: "22px",
@@ -135,6 +150,10 @@ const styles = {
     width: "80%",
     margin: "0 auto",
     borderCollapse: "collapse",
+    // Responsive adjustments
+    "@media (max-width: 768px)": {
+      width: "100%",
+    },
   },
   cell: {
     border: "1px solid white",
