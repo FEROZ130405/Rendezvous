@@ -23,8 +23,11 @@ const Footer = () => {
             >
               <img src="/Instagram.png" alt="Instagram" style={styles.icon} />
             </a>
-            <p style={styles.text}>Email Id : rendezvous@rmd.ac.in</p>
-           
+            <h4 style={styles.heading}>Contact Us On</h4>
+            <div style={styles.snippet}>
+            <img src="/th.jpeg" alt="Email Id : " style={styles.mail} />
+            <p style={styles.text}>rendezvous@rmd.ac.in</p>
+            </div>
           </div>
 
           {/* Column 3: HOD & Faculty */}
@@ -119,6 +122,17 @@ const styles = {
     height: "20px",
     transition: "opacity 0.3s",
     cursor: "pointer",
+  },
+  mail: {
+    width: "20px",
+    height: "15px",
+    transition: "opacity 0.3s",
+    cursor: "pointer",
+  },
+  snippet: {
+    display: "flex",
+    alignItems: "centre",
+    gap : "10px",
   },
   mapContainer: {
     width: "100%",
