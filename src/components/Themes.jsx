@@ -30,7 +30,7 @@ const Themes = () => {
             </video>
             <div style={styles.overlay}></div>
             <div style={styles.cardBody}>
-              <h3 style={styles.cardTitle}>Technical:</h3>
+              <h3 style={styles.cardTitle}>Technical</h3>
               <p style={styles.cardText}>
                 Enter the arena of coding challenges, hackathons, and technical warfare
               </p>
@@ -48,7 +48,7 @@ const Themes = () => {
             </video>
             <div style={styles.overlay}></div>
             <div style={styles.cardBody}>
-              <h3 style={styles.cardTitle}>Non-Technical:</h3>
+              <h3 style={styles.cardTitle}>Non-Technical</h3>
               <p style={styles.cardText}>
                 Survive the games of strategy, culture, and creative challenges
               </p>
