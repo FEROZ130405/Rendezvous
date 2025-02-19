@@ -30,16 +30,29 @@ const styles = {
     position: "relative", 
     zIndex: 10,
     width: "100%",
-    height: "100%",
     height: "45rem",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    // Responsive adjustments
+    "@media (max-width: 768px)": {
+      height: "30rem",
+    },
+    "@media (max-width: 480px)": {
+      height: "20rem",
+    },
   },
   image: {
     width: "100%", // Adjust width
     maxHeight: "43rem",
     objectFit: "cover",
+    // Responsive adjustments
+    "@media (max-width: 768px)": {
+      maxHeight: "28rem",
+    },
+    "@media (max-width: 480px)": {
+      maxHeight: "18rem",
+    },
   },
 };
 

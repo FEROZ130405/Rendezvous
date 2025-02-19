@@ -41,7 +41,7 @@ const styles = {
   container: {
     textAlign: "center",
     marginTop: "1.2rem",
-    zIndex: "1", //CHANGED
+    zIndex: "1",
   },
   timer: {
     fontSize: "2.4rem",
@@ -49,14 +49,29 @@ const styles = {
     color: "#fff",
     letterSpacing: "0.11rem",
     padding: "2rem",
+    // Responsive adjustments
+    "@media (max-width: 768px)": {
+      fontSize: "2rem",
+      padding: "1.5rem",
+    },
+    "@media (max-width: 480px)": {
+      fontSize: "1.5rem",
+      padding: "1rem",
+    },
   },
   labels: {
     fontSize: "1.3rem",
     fontWeight: "500",
     color: "#ccc",
     marginTop: "0.35rem",
+    // Responsive adjustments
+    "@media (max-width: 768px)": {
+      fontSize: "1.1rem",
+    },
+    "@media (max-width: 480px)": {
+      fontSize: "1rem",
+    },
   }
 };
 
 export default CountdownTimer;
-        

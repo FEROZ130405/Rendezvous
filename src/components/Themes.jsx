@@ -30,7 +30,7 @@ const Themes = () => {
             </video>
             <div style={styles.overlay}></div>
             <div style={styles.cardBody}>
-              <h3 style={styles.cardTitle}>Technical</h3>
+              <h3 style={styles.cardTitle}>Technical:</h3>
               <p style={styles.cardText}>
                 Enter the arena of coding challenges, hackathons, and technical warfare
               </p>
@@ -48,7 +48,7 @@ const Themes = () => {
             </video>
             <div style={styles.overlay}></div>
             <div style={styles.cardBody}>
-              <h3 style={styles.cardTitle}>Non-Technical</h3>
+              <h3 style={styles.cardTitle}>Non-Technical:</h3>
               <p style={styles.cardText}>
                 Survive the games of strategy, culture, and creative challenges
               </p>
@@ -64,6 +64,25 @@ const Themes = () => {
 };
 
 const styles = {
+  parentContainer: {
+    marginTop: "75px",
+    textAlign: "center",
+    zIndex: "1",
+  },
+  title: {
+    marginTop: "30px",
+    fontSize: "4rem",
+    fontWeight: "bold",
+    textAlign: "center",
+    textShadow: "0 0 10px rgb(255, 255, 255)",
+    // Responsive adjustments
+    "@media (max-width: 768px)": {
+      fontSize: "3rem",
+    },
+    "@media (max-width: 480px)": {
+      fontSize: "2rem",
+    },
+  },
   container: {
     display: "flex",
     justifyContent: "center",
@@ -160,8 +179,8 @@ const styles = {
     },
   },
   button: {
-    fontSize: "20px",
-    padding: "10px 20px",
+    fontSize: "1.25rem",
+    padding: "0.625rem 1.25rem",
     border: "none",
     backgroundColor: "white",
     color: "black",
@@ -171,32 +190,13 @@ const styles = {
     zIndex: "2",
     // Responsive adjustments
     "@media (max-width: 768px)": {
-      fontSize: "16px",
-      padding: "8px 16px",
+      fontSize: "1rem",
+      padding: "0.5rem 1rem",
     },
     "@media (max-width: 480px)": {
-      fontSize: "14px",
-      padding: "6px 12px",
+      fontSize: "0.875rem",
+      padding: "0.375rem 0.75rem",
     },
-  },
-  title: {
-    marginTop:"30px",
-    fontSize: "60px",
-    fontWeight: "bold",
-    textAlign: "center",
-    textShadow: "0 0 10px rgb(255, 255, 255)",
-    // Responsive adjustments
-    "@media (max-width: 768px)": {
-      fontSize: "40px",
-    },
-    "@media (max-width: 480px)": {
-      fontSize: "30px",
-    },
-  },
-  parentContainer: {
-    marginTop: "75px",
-    textAlign: "center",
-    zIndex: "1",
   },
 };
 

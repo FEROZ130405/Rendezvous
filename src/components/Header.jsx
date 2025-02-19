@@ -91,12 +91,6 @@ const Header = () => {
             margin: 0;
             color: white;
           }
-          .college-name {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-          }
 
           .nav-links {
             display: flex;
@@ -114,7 +108,7 @@ const Header = () => {
 
           .hamburger-menu {
             display: none;
-            font-size: 1rem;
+            font-size: 1.5rem;
             color: white;
             cursor: pointer;
           }
@@ -125,8 +119,8 @@ const Header = () => {
             position: absolute;
             top: 60px;
             right: 30px;
-            background-color: #222;
-            padding: 10px;
+            background-color: rgba(34, 34, 34, 0.9);
+            padding: 1rem;
             border-radius: 8px;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
           }
