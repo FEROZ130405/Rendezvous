@@ -1,0 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  
+  color: white; /* Ensures text is visible */
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
